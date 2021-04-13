@@ -1,0 +1,25 @@
+F:\New folder (2)\V Shiva\bin\Debug\V Shiva.exe.config
+F:\New folder (2)\V Shiva\bin\Debug\V Shiva.exe
+F:\New folder (2)\V Shiva\bin\Debug\V Shiva.pdb
+F:\New folder (2)\V Shiva\bin\Debug\V Shiva.xml
+F:\New folder (2)\V Shiva\obj\Debug\V_Shiva.Form1.resources
+F:\New folder (2)\V Shiva\obj\Debug\V_Shiva.Resources.resources
+F:\New folder (2)\V Shiva\obj\Debug\V Shiva.vbproj.GenerateResource.cache
+F:\New folder (2)\V Shiva\obj\Debug\V Shiva.vbproj.CoreCompileInputs.cache
+F:\New folder (2)\V Shiva\obj\Debug\V Shiva.exe
+F:\New folder (2)\V Shiva\obj\Debug\V Shiva.xml
+F:\New folder (2)\V Shiva\obj\Debug\V Shiva.pdb
+F:\New folder (2)\V Shiva\obj\Debug\V_Shiva.full_check.resources
+F:\New folder (2)\V Shiva\obj\Debug\V_Shiva.Welcome.resources
+F:\New folder (2)\V Shiva\obj\Debug\V_Shiva.scan.resources
+F:\New folder (2)\V Shiva\obj\Debug\V_Shiva.speedup.resources
+F:\New folder (2)\V Shiva\obj\Debug\V_Shiva.cleanup.resources
+F:\New folder (2)\V Shiva\obj\Debug\V_Shiva.close.resources
+F:\New folder (2)\V Shiva\obj\Debug\V Shiva.vbproj.CopyComplete
+F:\New folder (2)\V Shiva\obj\Debug\V_Shiva.quickscan.resources
+F:\New folder (2)\V Shiva\obj\Debug\V_Shiva.tools.resources
+F:\New folder (2)\V Shiva\obj\Debug\V_Shiva.notification.resources
+F:\New folder (2)\V Shiva\obj\Debug\V_Shiva.danger.resources
+F:\New folder (2)\V Shiva\obj\Debug\V Shiva.vbprojAssemblyReference.cache
+F:\New folder (2)\V Shiva\obj\Debug\V_Shiva.register.resources
+F:\New folder (2)\V Shiva\obj\Debug\V_Shiva.profile.resources

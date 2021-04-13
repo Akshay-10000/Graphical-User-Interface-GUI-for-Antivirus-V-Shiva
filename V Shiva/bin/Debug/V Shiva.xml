@@ -1,0 +1,271 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+V Shiva
+</name>
+</assembly>
+<members>
+<member name="T:V_Shiva.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources._0_KYvHu_TdR7pmBNky">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources._414e2f14bbfb7adeb50c19631169e69b">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources._51qpnh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources._7a9b8077fd3b55d8ab72bdb6864f9448">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources._7dy7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.alarm_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.Animated_fire_by_nevit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.antivirus_26px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.antivirus_30px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.antivirus_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.antivirus_50px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.AntiVirus_Software">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.AnxiousThinKite_small">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.bell_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.broom_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.c0c9c2a6b0a99053b87b14114c876000">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.cancel_50px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.close_window_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.computer_24px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.computer_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.Corrupt_GIF_FInal_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.download">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.exercise_104px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.exercise_26px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.exercise_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.exercise_48px1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.exercise_50px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.full_tool_storage_box_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.hips_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.images__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.it_security">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.maximize_window_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.menu_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.minimize_window_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.monitor_96px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.profile_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.remove_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.remove_96px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.remove_96px1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.running_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.server_104px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.shutdown_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.shutdown_48px1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.Trash_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.unnamed">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.vs_indigo_th">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.vs_pink_th">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.waste_50px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:V_Shiva.My.Resources.Resources.widescreen_104px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{86CDBF26-487B-4BDD-8F8A-3044A6FD352C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>V_Shiva.My.MyApplication</StartupObject>
+    <RootNamespace>V_Shiva</RootNamespace>
+    <AssemblyName>V Shiva</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>V Shiva.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>V Shiva.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\xyz\Smart Protector 2019\Smart Protector 2019\bin\Debug\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="cleanup.Designer.vb">
+      <DependentUpon>cleanup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cleanup.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="close.Designer.vb">
+      <DependentUpon>close.vb</DependentUpon>
+    </Compile>
+    <Compile Include="close.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="danger.Designer.vb">
+      <DependentUpon>danger.vb</DependentUpon>
+    </Compile>
+    <Compile Include="danger.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="full check.Designer.vb">
+      <DependentUpon>full check.vb</DependentUpon>
+    </Compile>
+    <Compile Include="full check.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="notification.Designer.vb">
+      <DependentUpon>notification.vb</DependentUpon>
+    </Compile>
+    <Compile Include="notification.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="profile.Designer.vb">
+      <DependentUpon>profile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="profile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="quickscan.Designer.vb">
+      <DependentUpon>quickscan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="quickscan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="register.Designer.vb">
+      <DependentUpon>register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scan.Designer.vb">
+      <DependentUpon>scan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="scan.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="speedup.Designer.vb">
+      <DependentUpon>speedup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="speedup.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tools.Designer.vb">
+      <DependentUpon>tools.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tools.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.vb">
+      <DependentUpon>Welcome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="cleanup.resx">
+      <DependentUpon>cleanup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="close.resx">
+      <DependentUpon>close.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="danger.resx">
+      <DependentUpon>danger.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="full check.resx">
+      <DependentUpon>full check.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="notification.resx">
+      <DependentUpon>notification.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="profile.resx">
+      <DependentUpon>profile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="quickscan.resx">
+      <DependentUpon>quickscan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="register.resx">
+      <DependentUpon>register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="scan.resx">
+      <DependentUpon>scan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="speedup.resx">
+      <DependentUpon>speedup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tools.resx">
+      <DependentUpon>tools.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51qpnh.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Animated_fire_by_nevit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdown_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_window_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize_window_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7dy7.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\antivirus_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\antivirus_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\antivirus_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\antivirus_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exercise_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\full_tool_storage_box_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\broom_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exercise_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\running_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exercise_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hips_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0_KYvHu-TdR7pmBNky.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Corrupt-GIF-FInal-1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7a9b8077fd3b55d8ab72bdb6864f9448.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\414e2f14bbfb7adeb50c19631169e69b.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monitor_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\widescreen_104px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\server_104px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AntiVirus-Software.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnxiousThinKite-small.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\it-security.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c0c9c2a6b0a99053b87b14114c876000.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exercise_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exercise_104px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trash-Icon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waste_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove_96px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdown_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_window_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bell_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alarm_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vs indigo th.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vs pink th.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile_48px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
